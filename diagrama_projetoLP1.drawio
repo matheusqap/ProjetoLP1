@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T17:05:06.795Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="UUlYRdygvjf5e0b9UTAf" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T17:14:05.753Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="EZKBWhLt-w94pVevcfjn" version="21.6.2" type="github">
   <diagram name="Página-1" id="vS54wYhkpu-R3U6V1ZRD">
     <mxGraphModel dx="1434" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
           <mxGeometry y="92" width="150" height="78" as="geometry" />
         </mxCell>
         <mxCell id="62WXFrzC4N_BZi2lxImG-8" value="A Fazer: public Coluna" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="250" y="710" width="160" height="86" as="geometry" />
+          <mxGeometry x="250" y="610" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="62WXFrzC4N_BZi2lxImG-9" value="AFazer();" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="62WXFrzC4N_BZi2lxImG-8">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -56,7 +56,7 @@
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="62WXFrzC4N_BZi2lxImG-12" value="EmAndamento: public Coluna" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="420" y="710" width="200" height="86" as="geometry" />
+          <mxGeometry x="580" y="630" width="200" height="86" as="geometry" />
         </mxCell>
         <mxCell id="62WXFrzC4N_BZi2lxImG-13" value="EmAndamento();" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="62WXFrzC4N_BZi2lxImG-12">
           <mxGeometry y="26" width="200" height="30" as="geometry" />
@@ -64,14 +64,35 @@
         <mxCell id="62WXFrzC4N_BZi2lxImG-14" value="void adicionarTarefa(); " style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="62WXFrzC4N_BZi2lxImG-12">
           <mxGeometry y="56" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="62WXFrzC4N_BZi2lxImG-15" value="A Fazer: public Coluna" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="520" y="570" width="160" height="86" as="geometry" />
+        <mxCell id="62WXFrzC4N_BZi2lxImG-15" value="Aprovacao: public Coluna" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="244" y="480" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="62WXFrzC4N_BZi2lxImG-16" value="AFazer();" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="62WXFrzC4N_BZi2lxImG-15">
-          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        <mxCell id="62WXFrzC4N_BZi2lxImG-16" value="Aprovacao();" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="62WXFrzC4N_BZi2lxImG-15">
+          <mxGeometry y="26" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="62WXFrzC4N_BZi2lxImG-17" value="void adicionarTarefa(); " style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="62WXFrzC4N_BZi2lxImG-15">
+          <mxGeometry y="56" width="170" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="62WXFrzC4N_BZi2lxImG-18" value="Feito: public Coluna" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="620" y="482" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="62WXFrzC4N_BZi2lxImG-19" value="Feito();" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="62WXFrzC4N_BZi2lxImG-18">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62WXFrzC4N_BZi2lxImG-20" value="void adicionarTarefa(); " style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="62WXFrzC4N_BZi2lxImG-18">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62WXFrzC4N_BZi2lxImG-21" value="QuadroKanbam.h" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="62WXFrzC4N_BZi2lxImG-22" value="colunas" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="62WXFrzC4N_BZi2lxImG-21">
+          <mxGeometry y="26" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62WXFrzC4N_BZi2lxImG-23" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" vertex="1" parent="62WXFrzC4N_BZi2lxImG-21">
+          <mxGeometry y="56" width="150" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="62WXFrzC4N_BZi2lxImG-24" value="&lt;div&gt;QuadroKanbam();&lt;/div&gt;&lt;div&gt;~QuadroKanbam();&lt;/div&gt;&lt;div&gt;void adicionarTarefa();&lt;/div&gt;&lt;div&gt;void imprimir();&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="62WXFrzC4N_BZi2lxImG-21">
+          <mxGeometry y="92" width="150" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
