@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projeto - LP1: Kanban Board em C++</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Projeto - LP1
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div><div class="header">
+  <div class="headertitle"><div class="title">Kanban Board em C++</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a> Este projeto implementa um Kanban Board simples em C++. O Kanban Board é uma ferramenta visual usada para gerenciar o fluxo de trabalho e acompanhar o progresso das tarefas. Ele é composto por colunas que representam os estágios do processo e as tarefas são movidas de uma coluna para outra conforme são concluídas.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Funcionalidades</h1>
+<ul>
+<li>O Kanban Board é composto por quatro colunas principais:<ul>
+<li><b>A Fazer</b>: Tarefas que estão na fila para serem realizadas.</li>
+<li><b>Em Andamento</b>: Tarefas que estão em progresso.</li>
+<li><b>Aprovação</b>: Tarefas concluídas que estão aguardando aprovação.</li>
+<li><b><a class="el" href="class_feito.html">Feito</a></b>: Tarefas concluídas e aprovadas.</li>
+</ul>
+</li>
+<li>O usuário pode adicionar novas tarefas ao quadro Kanban. Cada tarefa possui um nome e pode ser adicionada a uma coluna específica.</li>
+<li>As tarefas são representadas pela classe <code><a class="el" href="class_tarefa.html">Tarefa</a></code> e podem ser estendidas para tipos de tarefas específicas, se necessário. No exemplo fornecido, é criada a classe <code><a class="el" href="class_tarefa_exemplo.html">TarefaExemplo</a></code> como uma implementação de exemplo.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Estrutura do Código</h1>
+<ul>
+<li>O código está modularizado em vários arquivos <code>.cpp</code> e <code>.h</code> para facilitar a organização e reutilização.</li>
+<li>A classe <code><a class="el" href="class_quadro_kanbam.html">QuadroKanbam</a></code> representa o quadro Kanban e contém as colunas e as operações relacionadas a ele.</li>
+<li>A classe <code><a class="el" href="class_coluna.html">Coluna</a></code> é uma classe abstrata que define a estrutura básica de uma coluna no quadro Kanban. Ela possui um vetor de tarefas e métodos para adicionar e imprimir as tarefas.</li>
+<li>As classes <code><a class="el" href="class_a_fazer.html">AFazer</a></code>, <code><a class="el" href="class_em_andamento.html">EmAndamento</a></code>, <code><a class="el" href="class_aprovacao.html">Aprovacao</a></code> e <code><a class="el" href="class_feito.html">Feito</a></code> são classes derivadas de <code><a class="el" href="class_coluna.html">Coluna</a></code> e implementam os métodos específicos para adicionar tarefas às suas respectivas colunas.</li>
+<li>No exemplo, é fornecida a classe <code><a class="el" href="class_tarefa_exemplo.html">TarefaExemplo</a></code> como uma implementação de exemplo com nome e descrição da tarefa. </li>
+</ul>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>
